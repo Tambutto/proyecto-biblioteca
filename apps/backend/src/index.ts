@@ -1,5 +1,5 @@
 import express from 'express'
-import libroRoutes from './routes/libroRoutes'
+import libroRoutes from '../src/routes/libroRoutes'
 
 const app = express()
 app.use(express.json())
