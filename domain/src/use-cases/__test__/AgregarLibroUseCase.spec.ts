@@ -30,6 +30,6 @@ describe('AgregarLibroUseCase', () => {
     await useCase.ejecutar(libro)
 
     expect(mockRepo.agregar).toHaveBeenCalledWith(libro)
-    expect(mockRepo.agregar).toHaveBeenCalledTimes(0)
+    expect(mockRepo.agregar).toHaveBeenCalledTimes(1)
   })
 })
