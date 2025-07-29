@@ -38,6 +38,6 @@ describe('RealizarPrestamo', () => {
     await useCase.ejecutar(prestamo)
 
     expect(mockGuardar).toHaveBeenCalledWith(prestamo)
-    expect(mockGuardar).toHaveBeenCalledTimes(0)
+    expect(mockGuardar).toHaveBeenCalledTimes(1)
   })
 })
